@@ -20,3 +20,11 @@ Install [`patat: https://github.com/jaspervdj/patat`](https://github.com/jasperv
 - increase font size of the terminal
 - `patat slides.md`
 - navigate with cursor keys (or vim bindings)
+
+## Live-Demos
+
+Demos are started with `tmuxinator`.
+
+```sh
+tmuxinator start .
+```

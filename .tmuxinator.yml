@@ -1,11 +1,20 @@
 # ./.tmuxinator.yml
 
-name: cli-talk-devel
+name: cli-talk
 root: .
 
 tmux_command: byobu
 
 windows:
-    - devel:
-    - view:
+    - ranger:
+        - ranger
+    - bat:
+        - bat slides.md
+    - (porn) colorls:
+        - lc
+        - llc
+    - (porn) lolcat:
+        - la | lolcat
+    - (porn) no-more-secrets:
+        - la | nms
 

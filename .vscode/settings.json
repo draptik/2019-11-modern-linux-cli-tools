@@ -3,8 +3,12 @@
         "Gulaschprogrammiernacht",
         "Kommandozeilen",
         "Werkzeuge",
+        "byobu",
+        "colorls",
         "emph",
         "mimgdisplay",
-        "patat"
+        "patat",
+        "tmux",
+        "tmuxinator"
     ]
 }
