@@ -1,0 +1,11 @@
+# ./.tmuxinator.yml
+
+name: cli-talk-devel
+root: .
+
+tmux_command: byobu
+
+windows:
+    - devel:
+    - view:
+
