@@ -23,11 +23,70 @@ foo
 
 ![](images/wtf.jpg)
 
-# Improvements to...
+# Demo incremental list1 (using 3 dots)
+
+- foo
+
+. . .
+
+- bar
+
+. . .
+
+- baz
+
+# Target audience
+
+- linux desktop CLI users
+- linux admins
+
+```text
+  __________________________________________
+ / This is the year of linux on the desktop \
+|                                            |
+|               ;-)                          |
+ \                                          /
+  ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+# Linux tooling philosophy
+
+- **do one thing (and only one thing!) well**
+
+- **chaining**
+
+- _sound familiar? (hint: functional programming...)_
+
+# Overview
+
+- `byobu`
+- `ranger`
+- `fd`
+- `bat`
+
+# Unicode & Emojis
+
+Requires font support...
+
+- €
+- `&#8364;` (html for unicode euro symbol)
+- &#9203;
+- `&#9203;` (html)
+
+<!-- 
+    &#128169; is the same as 💩 (for details see https://www.fileformat.info/info/unicode/char/1f4a9/index.htm)
+-->
+
+# Why? Improvements to...
 
 - **productivity**
-- **optics** (unix porn: `PS1`, `STDOUT/ls`)
-- _fooo_
+
+- **optics** (aka "unix porn": `PS1`, `STDOUT/ls`)
 
 # You should know the basics
 
@@ -36,6 +95,10 @@ foo
 # shells
 
 **...there is no best shell...**
+
+- bash
+- zsh
+- fish
 
 # fish: The new kid on the block
 
@@ -64,20 +127,31 @@ foo
 
 - category: shell
 
-# tmux
+# byobu
 
-- terminal multiplexer
-- modern version of GNU Screen
+- **byobu** `tmux`-wrapper for non-vim users
+
 - https://github.com/tmux/tmux/wiki
-- **byobu** wrapper for non-vim users
+
 - http://byobu.co/
+
 - category: productivity
 
 # Ranger
 
 - file explorer
+
 - https://ranger.github.io
+
 - category: navigation, file system
+
+# bat
+
+- `cat` & `less` with syntax highlighting
+
+- https://github.com/sharkdp/bat
+
+- category: read / file display
 
 # fzf
 
@@ -95,12 +169,6 @@ foo
 
 - https://github.com/sharkdp/fd
 
-# bat
-
-- cat & less with syntax highlighting
-- https://github.com/sharkdp/bat
-- category: read / file display
-
 # progress
 
 - attach to any kind of copy
@@ -112,29 +180,34 @@ foo
 
 - interactive piping
 - instant live preview
+
 - https://github.com/akavel/up
 - category: search, file manipulation, interactive
 
 # lolcat
 
 - Rainbows and unicorns
+
 - https://github.com/busyloop/lolcat
 - category: fun, unix porn
 
 # ttyd
 
 - share your terminal over the web
+
 - https://tsl0922.github.io/ttyd/
 - category: network, dangerous
 
 # WTF
 
 - personal dashboard
+
 - https://wtfutil.com
 
 # no-more-secrets
 
 - when the tv team comes in your office
+
 - https://github.com/bartobri/no-more-secrets
 - category: fun, unix porn
 
@@ -157,6 +230,7 @@ foo
 - pimp the `ls` command
 - NerdFonts
 - icons
+
 - https://github.com/athityakumar/colorls
 - category: unix porn
 
