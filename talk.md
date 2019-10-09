@@ -11,8 +11,17 @@ patat:
         emph: [vividBlue, onVividBlack, italic]
         strong: [bold, dullMagenta, onVividBlack]
     images:
-        backend: w3m
+        backend: 'w3m'
+        path: '/usr/lib/w3m/w3mimgdisplay'
 ...
+
+# Slide 1
+
+foo
+
+# A slide with one image
+
+![](images/wtf.jpg)
 
 # Improvements to...
 

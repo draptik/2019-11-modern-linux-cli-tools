@@ -1,6 +1,7 @@
 # Modern linux command line tools
 
-    This talk was inspired by Martin Leyrer's talk at Gulaschprogrammiernacht 19 (CCC).
+This talk was inspired by Martin Leyrer's talk at Gulaschprogrammiernacht 19 (CCC).
+
 - [GPN19 Moderne Kommandozeilen-Werkzeuge
   (youtube)](https://www.youtube.com/watch?v=8d8-PpcLc24&t=12s)
 
@@ -17,6 +18,6 @@ Install [`patat`](https://github.com/jaspervdj/patat)
 
 - start a shell (i.e. bash)
 - increase font size of the terminal
-- `patat ideas.md`
+- `patat talk.md`
 - navigate with cursor keys (or vim bindings)
 
