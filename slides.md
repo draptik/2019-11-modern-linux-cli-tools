@@ -100,6 +100,20 @@ Requires font support...
 - zsh
 - fish
 
+# What is the difference between **terminal** and **shell**?
+
+## **terminal**
+  
+- (default) **colors**
+- **font**
+- **interactions**
+    - keyboard shortcuts
+    - mouse interaction
+
+## **shell**
+
+- everything else (f.ex. **`PS1`**)
+
 # fish: The new kid on the block
 
 - https://fishshell.com
