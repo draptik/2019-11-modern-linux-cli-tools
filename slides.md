@@ -145,7 +145,7 @@ Requires font support...
 
 - **byobu** `tmux`-wrapper for non-vim users
 
-- https://github.com/tmux/tmux/wiki
+    - `tmux` https://github.com/tmux/tmux/wiki
 
 - http://byobu.co/
 
