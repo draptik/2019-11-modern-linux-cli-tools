@@ -12,12 +12,11 @@ Since this is a talk for command line users, the presentation is run within a sh
 
 ### Prerequisites
 
-Install [`patat`](https://github.com/jaspervdj/patat)
+Install [`patat: https://github.com/jaspervdj/patat`](https://github.com/jaspervdj/patat)
 
 ### Usage
 
 - start a shell (i.e. bash)
 - increase font size of the terminal
-- `patat talk.md`
+- `patat slides.md`
 - navigate with cursor keys (or vim bindings)
-
