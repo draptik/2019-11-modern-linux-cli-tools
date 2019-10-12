@@ -76,7 +76,7 @@ things I picked up...
 
 # shells
 
-**...there is no best shell...**
+**...there is no "best shell"...**
 
 - `bash`
 
@@ -86,15 +86,15 @@ things I picked up...
 
 # What is the difference between **terminal** and **shell**?
 
-## **terminal**
+## terminal
   
 - **colors**
-- **font**
+- **fonts**
 - **interactions**
     - keyboard shortcuts
     - mouse interaction (copy & paste, scrolling, selection, ...)
 
-## **shell**
+## shell
 
 - **everything else** (f.ex. **`PS1`**, scripting language)
 

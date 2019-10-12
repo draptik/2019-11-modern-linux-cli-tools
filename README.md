@@ -7,6 +7,8 @@ This talk was inspired by Martin Leyrer's talk at Gulaschprogrammiernacht 19 (CC
 
 ## Presentation
 
+**This presentation is optimized for the terminal `kitty`.**
+
 Since this is a talk for command line users,
 the presentation is run within a shell using
 [`patat`](https://github.com/jaspervdj/patat) ;-)
