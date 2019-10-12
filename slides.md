@@ -15,18 +15,10 @@ patat:
         path: '/usr/lib/w3m/w3mimgdisplay'
 ---
 
+# "modern" is relative...
 
-# Demo incremental list1 (using 3 dots)
+things I picked up...
 
-- foo
-
-. . .
-
-- bar
-
-. . .
-
-- baz
 
 # Target audience
 
@@ -37,7 +29,7 @@ patat:
   __________________________________________
  / This is the year of linux on the desktop \
 |                                            |
-|               ;-)                          |
+|  Windows10 has WSL ;-)                     |
  \                                          /
   ------------------------------------------
         \   ^__^
@@ -81,23 +73,33 @@ Requires font support...
 
 - **optics** (aka "unix porn": `PS1`, `STDOUT/ls`)
 
-# You should know the basics
+# Learn the basics
 
-- `cat`, `less`, `find`, `grep`, `awk`, `ssh`/`scp`, `dd`, `rsync`, ...
+- have knowledge of the **editor war** 
+    - https://en.wikipedia.org/wiki/Editor_war
+    - (`spacemacs` http://spacemacs.org/)
+
+- `emacs` and `vim` keybindings
+    - learn navigation, copy & paste, (and how to exit)
+    - pick one and become fluent
+
+- `cat`, `less`, `find`, `grep`, `sed`, `tail`, `awk`, `dd`, `rsync`, ...
 
 # shells
 
 **...there is no best shell...**
 
 - `bash`
+
 - `zsh`
+
 - `fish`
 
 # What is the difference between **terminal** and **shell**?
 
 ## **terminal**
   
-- (default) **colors**
+- **colors**
 - **font**
 - **interactions**
     - keyboard shortcuts
@@ -105,14 +107,14 @@ Requires font support...
 
 ## **shell**
 
-- everything else (f.ex. **`PS1`**, scripting language)
+- **everything else** (f.ex. **`PS1`**, scripting language)
 
 # fish: The new kid on the block
 
 - https://fishshell.com
 
 - **fisher** / **oh-my-fish**
-  - package manager
+    - package manager
   
 - https://github.com/jorgebucaran/fisher
 
@@ -121,9 +123,10 @@ Requires font support...
 # zsh
 
 - **oh-my-zsh**: https://ohmyz.sh
-  - themes
-  - plugins
-  - package manager
+
+    - package manager
+    - themes
+    - plugins
 
 - category: shell
 
@@ -165,26 +168,25 @@ Requires font support...
 # Ranger
 
 - file explorer
-
 - 2 layout options
     - miller columns
     - multipane (similar to Midnight commander)
-
 - key bindings: see `~/.config/ranger/rc.conf` starting at line 300...
-
 - with image support for certain terminals
     - `iterms2`
     - `urxvt`
     - `kitty`
     - not `gnome-terminal` (!)
-
 - https://ranger.github.io
-
 - category: navigation, file system
 
 # bat
 
 - `cat` & `less` with syntax highlighting
+
+- From the docs:
+
+    _bat looks good on a dark background by default. However, if your terminal uses a light background, some themes like GitHub or OneHalfLight will work better for you._
 
 - https://github.com/sharkdp/bat
 
@@ -258,37 +260,28 @@ Requires font support...
 # patat
 
 - nerdy slides in your shell
-
-- Pandoc syntax (f. ex. markdown)
-
-- syntax highlighting
-
-- emojis: :smile:
-
 - `patat` runs in a terminal (similar to `revealJs` for the browser)
-
+- Pandoc syntax (f. ex. markdown)
+- syntax highlighting
+- emojis: :smile:
 - experimental image support in some terminals (same as for `ranger`)
     - `iterm2`
     - `urxvt`
     - `kitty`
 
 - Haskell engine
-
 - category: presentation, slides, unix porn
-
 - https://github.com/jaspervdj/patat
 
 # colorls
 
 - pimp the `ls` command
-- NerdFonts
+- NerdFonts: https://github.com/ryanoasis/nerd-fonts
 - icons
 
 - https://github.com/athityakumar/colorls
 - category: unix porn
 
-# Nice-to-have: use terminal which supports images
+# Looking for: easy way to switch between themes
 
-- requires new setup
-- fonts
-- icons
+any pointers?
