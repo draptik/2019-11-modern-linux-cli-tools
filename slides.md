@@ -19,7 +19,6 @@ patat:
 
 things I picked up...
 
-
 # Target audience
 
 - linux desktop CLI users
@@ -51,27 +50,17 @@ things I picked up...
 
 - `byobu`
 - `ranger`
-- `fd`
 - `bat`
-
-# Unicode & Emojis
-
-Requires font support...
-
-- €
-- `&#8364;` (html for unicode euro symbol)
-- &#9203;
-- `&#9203;` (html)
-
-<!-- 
-    &#128169; is the same as 💩 (for details see https://www.fileformat.info/info/unicode/char/1f4a9/index.htm)
--->
+- `fd`
+- `fzf`
+- unix-porn
 
 # Why? Improvements to...
 
 - **productivity**
 
-- **optics** (aka "unix porn": `PS1`, `STDOUT/ls`)
+- **optics**
+    - unix porn `PS1`, `ls`
 
 # Learn the basics
 
@@ -108,6 +97,24 @@ Requires font support...
 ## **shell**
 
 - **everything else** (f.ex. **`PS1`**, scripting language)
+
+# What is the best terminal?
+
+- use your default
+- but think about enriching your output!
+    - I want symbols in my CLI!
+
+## Unicode
+
+Requires font support...
+
+- € `&#8364;`
+- &#9203; `&#9203;`
+- &#128169; `&#128169;`
+
+<!-- 
+    &#128169; is the same as 💩 (for details see https://www.fileformat.info/info/unicode/char/1f4a9/index.htm)
+-->
 
 # fish: The new kid on the block
 
@@ -285,3 +292,7 @@ Requires font support...
 # Looking for: easy way to switch between themes
 
 any pointers?
+
+# END
+
+- did I miss your favorite tool?
