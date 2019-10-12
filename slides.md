@@ -13,18 +13,8 @@ patat:
     images:
         backend: 'w3m'
         path: '/usr/lib/w3m/w3mimgdisplay'
-    pandocExtensions:
-    - autolink_bare_uris
-    - emoji
-...
+---
 
-# Slide 1
-
-foo
-
-# A slide with one image
-
-![](images/wtf.jpg)
 
 # Demo incremental list1 (using 3 dots)
 
