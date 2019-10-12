@@ -99,9 +99,9 @@ Requires font support...
 
 **...there is no best shell...**
 
-- bash
-- zsh
-- fish
+- `bash`
+- `zsh`
+- `fish`
 
 # What is the difference between **terminal** and **shell**?
 
@@ -111,11 +111,11 @@ Requires font support...
 - **font**
 - **interactions**
     - keyboard shortcuts
-    - mouse interaction
+    - mouse interaction (copy & paste, scrolling, selection, ...)
 
 ## **shell**
 
-- everything else (f.ex. **`PS1`**)
+- everything else (f.ex. **`PS1`**, scripting language)
 
 # fish: The new kid on the block
 
@@ -144,6 +144,24 @@ Requires font support...
 
 - category: shell
 
+# PS1: liquidprompt
+
+- available for `zsh`, `bash`, etc
+
+- https://github.com/nojhan/liquidprompt
+
+- category: unix-porn
+
+# PS1: Powerline
+
+- started as fancy statusline for `vim`...
+
+- available for `zsh`, `bash`, etc
+
+- https://github.com/powerline/powerline
+
+- category: unix-porn
+
 # byobu
 
 - **byobu** `tmux`-wrapper for non-vim users
@@ -162,7 +180,7 @@ Requires font support...
     - miller columns
     - multipane (similar to Midnight commander)
 
-- key bindings: vi-centric
+- key bindings: see `~/.config/ranger/rc.conf` starting at line 300...
 
 - with image support for certain terminals
     - `iterms2`
