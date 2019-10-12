@@ -1,6 +1,6 @@
 ---
 title: ░▒▓ modern linux command line tools ▓▒░
-author: patrick @drechsler
+author: patrick @drechsler    / hackerkegeln 2019-11
 patat:
     slideLevel: 1
     wrap: true
@@ -13,6 +13,9 @@ patat:
     images:
         backend: 'w3m'
         path: '/usr/lib/w3m/w3mimgdisplay'
+    pandocExtensions:
+    - autolink_bare_uris
+    - emoji
 ...
 
 # Slide 1
@@ -155,6 +158,18 @@ Requires font support...
 
 - file explorer
 
+- 2 layout options
+    - miller columns
+    - multipane (similar to Midnight commander)
+
+- key bindings: vi-centric
+
+- with image support for certain terminals
+    - `iterms2`
+    - `urxvt`
+    - `kitty`
+    - not `gnome-terminal` (!)
+
 - https://ranger.github.io
 
 - category: navigation, file system
@@ -235,6 +250,22 @@ Requires font support...
 # patat
 
 - nerdy slides in your shell
+
+- Pandoc syntax (f. ex. markdown)
+
+- syntax highlighting
+
+- emojis: :smile:
+
+- `patat` runs in a terminal (similar to `revealJs` for the browser)
+
+- experimental image support in some terminals (same as for `ranger`)
+    - `iterm2`
+    - `urxvt`
+    - `kitty`
+
+- Haskell engine
+
 - category: presentation, slides, unix porn
 
 - https://github.com/jaspervdj/patat
