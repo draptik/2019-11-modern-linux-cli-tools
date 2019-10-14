@@ -12,9 +12,8 @@ windows:
         - bat slides.md
     - (porn) colorls:
         - lc
-        - llc
     - (porn) lolcat:
         - la | lolcat
     - (porn) no-more-secrets:
-        - la | nms
+        - la | nms | lolcat
 
