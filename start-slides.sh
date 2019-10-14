@@ -1,2 +1,5 @@
 #!/bin/sh
-patat slides.md
+~/.config/kitty/switch-to-solarized-light.sh
+
+kitty patat slides.md
+
