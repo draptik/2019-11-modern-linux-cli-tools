@@ -22,5 +22,5 @@ windows:
     - (porn) lolcat:
         - la | lolcat
     - (porn) no-more-secrets:
-        - la | lolcat | nms
+        - la | nms | lolcat
 
