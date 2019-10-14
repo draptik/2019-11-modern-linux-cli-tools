@@ -22,7 +22,10 @@ It does not work with `gnome-terminal`!
 
 ### Prerequisites
 
-Install [`patat`: https://github.com/jaspervdj/patat](https://github.com/jaspervdj/patat)
+- [`patat`: https://github.com/jaspervdj/patat](https://github.com/jaspervdj/patat)
+- [`tmux`: TODO](TODO)
+- [`byobu`: TODO](TODO)
+- [`tmuxinator`: TODO](TODO)
 
 ### Usage
 
@@ -37,3 +40,4 @@ Run `./start-demos.sh`
 
 This starts `tmuxinator`, which in turn starts a demonstration of all tools.
 This will likely fail on your system...
+

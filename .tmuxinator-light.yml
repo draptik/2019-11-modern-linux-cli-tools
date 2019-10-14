@@ -1,0 +1,26 @@
+# ./.tmuxinator-light.yml
+
+name: cli-talk
+root: .
+
+on_project_start: ~/.config/ranger/switch-to-kitty-light.sh
+
+on_project_stop: ~/.config/ranger/switch-to-default-dark.sh
+on_project_exit: ~/.config/ranger/switch-to-default-dark.sh
+
+pre_window: alias lc='llc' && alias bat='bat --theme=GitHub'
+
+tmux_command: byobu
+
+windows:
+    - ranger:
+        - ranger
+    - bat:
+        - bat slides.md
+    - (porn) colorls:
+        - lc
+    - (porn) lolcat:
+        - la | lolcat
+    - (porn) no-more-secrets:
+        - la | lolcat | nms
+
