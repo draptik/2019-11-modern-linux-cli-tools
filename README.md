@@ -16,7 +16,9 @@ the presentation is run within a shell using
 If you just need the content: Read `slides.md`.
 
 In case you have problems with `patat`:
+
 Remove the `images:` section from the `slides.md` file.
+
 This section only works with terminals supporting image previews such `urxvt`.
 It does not work with `gnome-terminal`!
 
@@ -29,7 +31,7 @@ It does not work with `gnome-terminal`!
 
 ### Usage
 
-- start a shell (i.e. bash)
+- start a shell (kitty, i.e. bash)
 - increase font size of the terminal
 - `./start-slides.sh`
 - navigate with cursor keys (or vim bindings)
