@@ -31,11 +31,11 @@ patat:
 
 ## Ascii art generator
 
-- https://www.ascii-art-generator.org
+- http://patorjk.com/software/taag/
 
 ---
 
-# Title demo1: "Shadow" Too large :-(
+# Title demo1: "Ansi Shadow" Too large :-(
 
 ```text
 
@@ -60,10 +60,6 @@ patat:
 ╚██████╗███████╗██║       ██║   ╚██████╔╝╚██████╔╝███████╗███████║
  ╚═════╝╚══════╝╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
 ```
-
-<!-- 
-    Font: Ansi Shadow   Source: http://patorjk.com/software/taag
--->
 
 ---
 
@@ -204,10 +200,6 @@ I've come up with a set of rules that describe our reactions to technologies:
 
 3. Anything invented **after you're thirty-five** is against the natural order of things.
 
-<!-- 
-    comments: Use XML comment syntax
--->
-
 ---
 
 # Target audience
@@ -219,7 +211,7 @@ I've come up with a set of rules that describe our reactions to technologies:
   __________________________________________
  / This is the year of linux on the desktop \
 |                                            |
-|  Windows10 has WSL ;-)                     |
+|          ...Windows10 has WSL ;-)          |
  \                                          /
   ------------------------------------------
         \   ^__^
