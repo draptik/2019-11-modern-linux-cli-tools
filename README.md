@@ -25,9 +25,9 @@ It does not work with `gnome-terminal`!
 ### Prerequisites
 
 - [`patat`: https://github.com/jaspervdj/patat](https://github.com/jaspervdj/patat)
-- [`tmux`: TODO](TODO)
-- [`byobu`: TODO](TODO)
-- [`tmuxinator`: TODO](TODO)
+- [`tmux`: https://github.com/tmux/tmux/wiki](https://github.com/tmux/tmux/wiki)
+- [`byobu`: http://byobu.co/](http://byobu.co/)
+- [`tmuxinator`: https://github.com/tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
 ### Usage
 
