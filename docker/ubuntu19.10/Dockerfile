@@ -25,3 +25,8 @@ RUN gem install \
     lolcat \
     tmuxinator
 
+# add non-root user ("homer" as in Homer Simpson)
+RUN useradd -ms /bin/bash homer
+USER homer
+WORKDIR /home/homer
+
