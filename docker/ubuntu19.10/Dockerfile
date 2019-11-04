@@ -51,7 +51,7 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 RUN python3 get-pip.py --user
 RUN rm get-pip.py
 RUN .local/bin/pip install --user powerline-status
-COPY shared/bash-add-powerline.txt bash-add-powerline.txt
-RUN cat bash-add-powerline.txt >> .bashrc
+COPY shared/bash-add-powerline.sh bash-add-powerline.sh
+RUN cat bash-add-powerline.sh >> .bashrc
 RUN sh . .bashrc
 
