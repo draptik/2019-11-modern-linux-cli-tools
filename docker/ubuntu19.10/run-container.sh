@@ -1,5 +1,10 @@
 #!/bin/sh
-CURRENT_CONTAINER="cli-tools-demo-ubuntu:1.0"
+CONTAINER="cli-tools-demo-ubuntu:1.0"
+LOCAL_CONFIGS=${PWD}"/../share"
 
-# TODO I need non-root privileges
-docker run -it ${CURRENT_CONTAINER} /bin/bash
+docker run \
+    --rm \
+    --name cli-demos \
+    -v ${LOCAL_CONFIGS}:/home/homer/share \
+    -it ${CONTAINER} /bin/bash \
+
