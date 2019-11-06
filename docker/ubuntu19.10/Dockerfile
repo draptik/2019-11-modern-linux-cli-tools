@@ -20,11 +20,6 @@ RUN apt-get install -y \
 RUN pip3 install \
     thefuck
 
-# ruby gems
-RUN gem install \
-    lolcat \
-    tmuxinator
-
 # modern packages
 RUN apt-get install -y \
     zsh \
@@ -40,6 +35,11 @@ RUN apt-get install -y \
     ruby-dev \
     ruby-colorize
 
+# ruby gems
+RUN gem install \
+    lolcat \
+    tmuxinator \
+    colorls
 
 # add non-root user
 RUN useradd -ms /bin/bash homer
@@ -53,21 +53,8 @@ RUN sh install-powerline.sh
 COPY shared/bashrc-powerline.txt bashrc-powerline.txt
 RUN cat bashrc-powerline.txt >> .bashrc
 
-# Nerdfonts 
-#
-# The consuming shell (this is a docker container!) must have the font installed!
-#
-# (requirement for colorls)
-# COPY shared/install-nerd-fonts.sh install-nerd-fonts.sh
-# RUN sh install-nerd-fonts.sh
-
-# colorls 
-#   - ruby gem must be installed as root
-#   - prerequisite: nerd-fonts
-USER root
-RUN gem install colorls
-# back to USER non-root
-USER homer
+# colorls
+# Nerdfonts (the consuming shell (this is a docker container!) must have the font installed!)
 COPY shared/bashrc-colorls.txt bashrc-colorls.txt
 RUN cat bashrc-colorls.txt >> .bashrc
 
