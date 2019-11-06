@@ -2,26 +2,15 @@ FROM ubuntu:19.10
 
 RUN apt-get update && apt-get upgrade -y
 
-# basic packages
 RUN apt-get install -y \
     bash \
     git \
     wget \
     curl \
-    vim
-
-# otherpackage managers (ruby, python, ...)
-RUN apt-get install -y \
+    vim \
     ruby \
     python3-dev \
-    python3-pip
-
-# python
-RUN pip3 install \
-    thefuck
-
-# modern packages
-RUN apt-get install -y \
+    python3-pip \
     zsh \
     fish \
     tmux \
@@ -34,6 +23,10 @@ RUN apt-get install -y \
     rxvt-unicode \
     ruby-dev \
     ruby-colorize
+
+# python
+RUN pip3 install \
+    thefuck
 
 # ruby gems
 RUN gem install \
