@@ -34,24 +34,42 @@ RUN apt-get install -y \
     ranger \
     fd-find \
     fzf \
-    bat
+    bat \
+    kitty \
+    rxvt-unicode \
+    ruby-dev \
+    ruby-colorize
+
 
 # add non-root user
 RUN useradd -ms /bin/bash homer
 USER homer
 WORKDIR /home/homer
 
-
 # Powerline
-# NOTE: https://devpro.media/install-powerline-ubuntu/#install-pip-and-powerline
-# NOTE: There is probably a more elegant way to install this...
-RUN git clone https://github.com/powerline/fonts.git --depth=1 powerline-fonts \
-    && ./powerline-fonts/install.sh
-RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-RUN python3 get-pip.py --user
-RUN rm get-pip.py
-RUN .local/bin/pip install --user powerline-status
-COPY shared/bash-add-powerline.sh bash-add-powerline.sh
-RUN cat bash-add-powerline.sh >> .bashrc
-RUN sh . .bashrc
+COPY shared/install-powerline.sh install-powerline.sh
+RUN sh install-powerline.sh
 
+COPY shared/bashrc-powerline.txt bashrc-powerline.txt
+RUN cat bashrc-powerline.txt >> .bashrc
+
+# Nerdfonts 
+#
+# The consuming shell (this is a docker container!) must have the font installed!
+#
+# (requirement for colorls)
+# COPY shared/install-nerd-fonts.sh install-nerd-fonts.sh
+# RUN sh install-nerd-fonts.sh
+
+# colorls 
+#   - ruby gem must be installed as root
+#   - prerequisite: nerd-fonts
+USER root
+RUN gem install colorls
+# back to USER non-root
+USER homer
+COPY shared/bashrc-colorls.txt bashrc-colorls.txt
+RUN cat bashrc-colorls.txt >> .bashrc
+
+# reload .bashrc
+RUN sh . .bashrc
