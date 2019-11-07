@@ -19,8 +19,6 @@ RUN apt-get install -y \
     fd-find \
     fzf \
     bat \
-    kitty \
-    rxvt-unicode \
     ruby-dev \
     ruby-colorize
 
