@@ -3,17 +3,29 @@
 name: cli-talk
 root: .
 
+#tmux_options: -f .tmux-for-demo.conf
+
 tmux_command: byobu
 
+
 windows:
+    - empty:
+        - cd ~
+        - clear
     - ranger:
-        - ranger
+        - cd ~
+        - clear
+        - echo "ranger"
     - bat:
-        - bat slides.md
+        - clear
+        - echo "bat slides.md"
     - (porn) colorls:
-        - lc
+        - clear
+        - echo "lc"
     - (porn) lolcat:
-        - la | lolcat
+        - clear
+        - echo "la | lolcat"
     - (porn) no-more-secrets:
-        - la | nms | lolcat
+        - clear
+        - echo "la | nms | lolcat"
 
