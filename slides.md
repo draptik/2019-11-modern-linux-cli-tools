@@ -1,6 +1,6 @@
 ---
 title: ░▒▓ modern linux command line tools ▓▒░
-author: patrick @drechsler / hackerkegeln 2019-11
+author: patrick @drechsler / \#swec19 2019-11
 patat:
     pandocExtensions:
         - patat_extensions
